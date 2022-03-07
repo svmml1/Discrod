@@ -36,7 +36,7 @@ export default function App() {
         <AuthContext>     
         <OverlayProvider>
           <Chat client={client}>
-          <Navigation colorScheme={colorScheme} />        
+          <Navigation colorScheme={"dark"} />        
           </Chat>
         </OverlayProvider>
         <StatusBar />
